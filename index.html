@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="src/styles.css">
   <title>My Portfolio</title>
 </head>
-<body>
+<body class="">
     <header class="flex justify-between items-center py-[30px] px-[10%]">
         <h3 class="font-bold text-[25px] text-primary">RALPH</h3>
         <nav>
@@ -23,18 +23,25 @@
         <a class="px-[25px] py-[9px] bg-primary border-none rounded-[50px] cursor-pointer transition duration-[0.3s] ease-in-[0s] hover:opacity-[0.8]" href="#"><button>Contact</button></a>
     </header>
 
-    <section class="bg-[#28282B]">
+    <div id="bg" class=""></div>
+    <section class="">
         <!-- Home -->
         <div class="px-[10%] flex">
             <div class="leading-5 min-w-fit mt-44">
                 <h1 class="text-7xl font-bold mb-4">Hey, I'm <span class="text-primary">RALPH</span></h1>
                 <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Molestias qui deserunt ipsum sed voluptatem? Ipsam sint aliquid <br> voluptatem quas ab, expedita harum, voluptas numquam enim <br> velit veritatis aut ex quaerat.</p>
                 <h3 class="text-4xl font-extrabold text-primary">Full Stack Web Dev.</h3>
+                <a class="bg-primary px-48 py-4 mt-5 font-bold flex items-center" href="#">KNOW ME MORE <img class="bg-transparent w-[30px]" src="pictures/arrow-icon.png" alt=""></a>
             </div>
             <div class="">
-                <img class="bg-transparent max-w-3xl" src="pictures/shape.png" alt="">
+                <img class="bg-transparent ml-10" src="pictures/shape.png" alt="">
             </div>
         </div>
     </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="src/js/particles.min.js"></script>
+    <script type="text/javascript" src="src/js/custom.js"></script>
 </body>
 </html>
